@@ -5,17 +5,30 @@
     padding: 0;
 }
 
+.debug {
+    border: 2px dashed red;
+}
 
 header {
-    background-color: green;
-    height: 60px;
+    background-color: black;
+    height: 30px;
 }
 main {
-    background-color: yellow;
+    background-color: black;
     height: calc(100vh - 160px);
     overflow-y: auto;
 }
+img {
+    width: 250px;
+    height: 200px;
+    padding-bottom: 20px;
+}
+div {
+    /* max-width: 80vw; */
+    margin: 0 auto;
+    padding: 100px;
+}
 footer {
-    background-color: red;
+    background-color: #222222;
     height: 100px;
 }

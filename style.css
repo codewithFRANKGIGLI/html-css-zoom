@@ -12,7 +12,23 @@
 header {
     background-color: black;
     height: 30px;
+    width: 100vw;
+    color: white;
 }
+.container {    
+    position: relative;
+    padding: 10px;
+}
+.commands {
+    position: absolute;
+    right: 0;
+}
+.view, .fullscreen {
+    background-color: #4a4a4a;
+    padding: 5px;
+    border-radius: 5px;
+}
+
 main {
     background-color: black;
     height: calc(100vh - 160px);
@@ -23,10 +39,9 @@ img {
     height: 200px;
     padding-bottom: 20px;
 }
-div {
-    /* max-width: 80vw; */
+main div {
     margin: 0 auto;
-    padding: 100px;
+    padding: 30px 100px;
 }
 footer {
     background-color: #222222;

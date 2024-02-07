@@ -1,0 +1,21 @@
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+
+header {
+    background-color: green;
+    height: 60px;
+}
+main {
+    background-color: yellow;
+    height: calc(100vh - 160px);
+    overflow-y: auto;
+}
+footer {
+    background-color: red;
+    height: 100px;
+}

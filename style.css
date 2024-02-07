@@ -1,39 +1,55 @@
-
+/* #region RESET */
 * {
     box-sizing: border-box;
     margin: 0;
     padding: 0;
 }
+/* #endregion RESET */
 
+/* #region DEBUG */
 .debug {
     border: 2px dashed red;
 }
+/* #endregion DEBUG */
 
+/* #region GENERAL */
+body{
+    font-family: sans-serif;
+}
 header {
     background-color: black;
-    height: 30px;
+    height: 50px;
     width: 100vw;
     color: white;
 }
+main {
+    background-color: black;
+    height: calc(100vh - 160px);
+    overflow-y: auto;
+}
+footer {
+    background-color: #222222;
+    height: 100px;
+}
+/* #endregion GENERAL */
+
+/* #region HEADER */
 .container {    
     position: relative;
-    padding: 10px;
 }
 .commands {
     position: absolute;
     right: 0;
+    margin: 15px;
 }
 .view, .fullscreen {
     background-color: #4a4a4a;
     padding: 5px;
     border-radius: 5px;
 }
+/* #endregion HEADER */
 
-main {
-    background-color: black;
-    height: calc(100vh - 160px);
-    overflow-y: auto;
-}
+/* #region MAIN */
 img {
     width: 250px;
     height: 200px;
@@ -43,7 +59,4 @@ main div {
     margin: 0 auto;
     padding: 30px 100px;
 }
-footer {
-    background-color: #222222;
-    height: 100px;
-}
+/* #endregion MAIN */

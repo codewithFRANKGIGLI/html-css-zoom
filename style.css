@@ -44,8 +44,11 @@ footer {
 }
 .view, .fullscreen {
     background-color: #4a4a4a;
-    padding: 5px;
-    border-radius: 5px;
+    padding: 8px;
+    border: none;
+    border-radius: 8px;
+    color: white;
+    cursor: pointer;
 }
 /* #endregion HEADER */
 
@@ -60,3 +63,48 @@ main div {
     padding: 30px 100px;
 }
 /* #endregion MAIN */
+
+/* #region FOOTER */
+footer .container {
+    display: flex;
+    flex-wrap: nowrap;
+    justify-content: space-between;
+    align-items: center;
+    height: 100%;
+}
+.left, .right {
+    width: 20%;
+}
+.right {
+    text-align: right;
+}
+.center {
+    text-align: center;
+}
+/* #endregion FOOTER */
+
+footer button {
+    display: inline-block;
+    outline: 0;
+    border: 0;
+    cursor: pointer;
+    will-change: box-shadow,transform;
+    background-color: #222222;
+    padding: 0 32px;
+    border-radius: 6px;
+    color: #fff;
+    height: 100%;
+    font-size: 18px;
+    text-shadow: 0 1px 0 rgb(0 0 0 / 40%);
+    transition: box-shadow 0.15s ease, transform 0.15s ease;
+}
+footer button:hover {    
+    transform: translateY(-2px);
+}
+footer button:active{
+    transform: translateY(2px);
+}
+footer button i {
+    font-size: 35px;
+    padding: 3px;
+}

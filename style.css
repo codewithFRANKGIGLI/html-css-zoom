@@ -59,7 +59,6 @@ img {
 .gallery {
     display: flex;
     flex-wrap: wrap;
-    height: 100%;
     margin: 50px;
 }
 .partecipant {
